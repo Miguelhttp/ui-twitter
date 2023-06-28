@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --cor-padrao: #0f1419;
+  --twitter-blue: #1da1f2;
+}
+
+body {
+  color: var(--cor-padrao);
+  -webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, button {
+  font: 400 1rem Roboto, sans-serif;
+}
+
+button {
+  cursor: pointer ;
+}
+
+a {
+  color: inherit;
+}
